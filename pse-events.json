@@ -1,11 +1,101 @@
 {
   "Common": {
-    "CustomerAfftectedCount": 4,
-    "OutageCount": 2,
-    "LastUpdatedDatetime": "04/20 07:05 AM"
+    "CustomerAfftectedCount": 7,
+    "OutageCount": 3,
+    "LastUpdatedDatetime": "04/20 07:25 AM"
   },
   "CustomerProfile": null,
   "PseMap": [
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "Value": "04/20 06:57 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "Value": "3",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "Value": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "Value": "Under investigation",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "Value": "04/20 07:20 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "Value": "04/20 10:30 AM",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID:",
+            "Value": "INC1135036538",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.76127",
+          "Longitude": "-122.09290",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "Title": "Cottage Lake",
+          "Id": "INC1135036538",
+          "PlannedOutage": false
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.76097",
+          "Longitude": "-122.09313"
+        },
+        {
+          "Latitude": "47.76136",
+          "Longitude": "-122.09330"
+        },
+        {
+          "Latitude": "47.76142",
+          "Longitude": "-122.09325"
+        },
+        {
+          "Latitude": "47.76148",
+          "Longitude": "-122.09242"
+        },
+        {
+          "Latitude": "47.76140",
+          "Longitude": "-122.09237"
+        },
+        {
+          "Latitude": "47.76095",
+          "Longitude": "-122.09302"
+        },
+        {
+          "Latitude": "47.76097",
+          "Longitude": "-122.09313"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.76095",
+          "Longitude": "-122.09330"
+        },
+        "Max": {
+          "Latitude": "47.76148",
+          "Longitude": "-122.09237"
+        }
+      }
+    },
     {
       "DataProvider": {
         "Attributes": [
@@ -31,7 +121,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/20 07:00 AM",
+            "Value": "04/20 07:20 AM",
             "NoDisplay": false
           },
           {
@@ -233,7 +323,7 @@
           },
           {
             "Name": "Last update",
-            "Value": "04/20 07:00 AM",
+            "Value": "04/20 07:20 AM",
             "NoDisplay": false
           },
           {
@@ -403,5 +493,5 @@
       }
     }
   ],
-  "LastUpdated": "2025-04-20T14:05:08+00:00"
+  "LastUpdated": "2025-04-20T14:25:11+00:00"
 }
