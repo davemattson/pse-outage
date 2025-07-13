@@ -1,18 +1,18 @@
 {
   "UnplannedOutageSummary": {
-    "CustomerAfftectedCount": 15,
-    "OutageCount": 3,
-    "LastUpdatedDatetime": "07/13 03:15 PM"
+    "CustomerAfftectedCount": 54,
+    "OutageCount": 4,
+    "LastUpdatedDatetime": "07/13 03:35 PM"
   },
   "PlannedOutageSummary": {
     "CustomerAfftectedCount": 6,
     "OutageCount": 1,
-    "LastUpdatedDatetime": "07/13 03:15 PM"
+    "LastUpdatedDatetime": "07/13 03:35 PM"
   },
   "PSPSSummary": {
     "CustomerAfftectedCount": 0,
     "OutageCount": 0,
-    "LastUpdatedDatetime": "07/13 03:15 PM"
+    "LastUpdatedDatetime": "07/13 03:35 PM"
   },
   "CustomerProfile": null,
   "PseMap": [
@@ -50,7 +50,7 @@
           {
             "Name": "Last update",
             "RefName": "",
-            "Value": "07/13 03:10 PM",
+            "Value": "07/13 03:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -196,7 +196,7 @@
           {
             "Name": "Last update",
             "RefName": "",
-            "Value": "07/13 03:10 PM",
+            "Value": "07/13 03:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -406,7 +406,7 @@
           {
             "Name": "Last update",
             "RefName": "",
-            "Value": "07/13 03:10 PM",
+            "Value": "07/13 03:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -498,8 +498,8 @@
           {
             "Name": "Status",
             "RefName": "Status",
-            "Value": "Outage reported",
-            "RefValue": "Outage reported",
+            "Value": "waiting for repairs",
+            "RefValue": "Waiting for repairs",
             "NoDisplay": false
           },
           {
@@ -512,7 +512,7 @@
           {
             "Name": "Last update",
             "RefName": "",
-            "Value": "07/13 03:10 PM",
+            "Value": "07/13 03:30 PM",
             "RefValue": "",
             "NoDisplay": false
           },
@@ -687,7 +687,161 @@
           "Longitude": "-122.62931"
         }
       }
+    },
+    {
+      "DataProvider": {
+        "Attributes": [
+          {
+            "Name": "Start time",
+            "RefName": "",
+            "Value": "07/13 03:15 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Customers impacted",
+            "RefName": "Customers impacted",
+            "Value": "39",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Status",
+            "RefName": "Status",
+            "Value": "Outage reported",
+            "RefValue": "Outage reported",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Cause",
+            "RefName": "",
+            "Value": "Under investigation",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Last update",
+            "RefName": "",
+            "Value": "07/13 03:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Est. restoration time",
+            "RefName": "Est. Restoration time",
+            "Value": "07/13 06:30 PM",
+            "RefValue": "",
+            "NoDisplay": false
+          },
+          {
+            "Name": "Outage ID",
+            "RefName": "",
+            "Value": "INC1135042231",
+            "RefValue": "",
+            "NoDisplay": false
+          }
+        ],
+        "PointOfInterest": {
+          "Latitude": "47.03140",
+          "Longitude": "-122.18325",
+          "MapType": "Outage",
+          "PinType": "Outage",
+          "OrderType": "Outage",
+          "Title": "Orting",
+          "Id": "INC1135042231",
+          "PlannedOutage": false,
+          "FilterType": "Outage"
+        }
+      },
+      "Polygon": [
+        {
+          "Latitude": "47.02477",
+          "Longitude": "-122.17827"
+        },
+        {
+          "Latitude": "47.03171",
+          "Longitude": "-122.18899"
+        },
+        {
+          "Latitude": "47.03171",
+          "Longitude": "-122.18899"
+        },
+        {
+          "Latitude": "47.03777",
+          "Longitude": "-122.19749"
+        },
+        {
+          "Latitude": "47.03785",
+          "Longitude": "-122.19743"
+        },
+        {
+          "Latitude": "47.03731",
+          "Longitude": "-122.19206"
+        },
+        {
+          "Latitude": "47.03731",
+          "Longitude": "-122.19205"
+        },
+        {
+          "Latitude": "47.03404",
+          "Longitude": "-122.18058"
+        },
+        {
+          "Latitude": "47.03404",
+          "Longitude": "-122.18056"
+        },
+        {
+          "Latitude": "47.03051",
+          "Longitude": "-122.17432"
+        },
+        {
+          "Latitude": "47.03048",
+          "Longitude": "-122.17430"
+        },
+        {
+          "Latitude": "47.02628",
+          "Longitude": "-122.17437"
+        },
+        {
+          "Latitude": "47.02627",
+          "Longitude": "-122.17437"
+        },
+        {
+          "Latitude": "47.02488",
+          "Longitude": "-122.17482"
+        },
+        {
+          "Latitude": "47.02484",
+          "Longitude": "-122.17488"
+        },
+        {
+          "Latitude": "47.02479",
+          "Longitude": "-122.17690"
+        },
+        {
+          "Latitude": "47.02479",
+          "Longitude": "-122.17690"
+        },
+        {
+          "Latitude": "47.02476",
+          "Longitude": "-122.17823"
+        },
+        {
+          "Latitude": "47.02477",
+          "Longitude": "-122.17827"
+        }
+      ],
+      "BoundingBox": {
+        "Min": {
+          "Latitude": "47.02476",
+          "Longitude": "-122.19749"
+        },
+        "Max": {
+          "Latitude": "47.03785",
+          "Longitude": "-122.17430"
+        }
+      }
     }
   ],
-  "LastUpdated": "2025-07-13T22:15:16+00:00"
+  "LastUpdated": "2025-07-13T22:35:15+00:00"
 }
